@@ -1,2 +1,3 @@
-# docs-posts
-Post and articles.
+# Overview
+
+This repo is just a place where I keep my random ramblings.
