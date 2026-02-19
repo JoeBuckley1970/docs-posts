@@ -1,3 +1,5 @@
+![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)
+
 **KMS in the Age of AI...**
 
 Last week, I wanted to have a productive discussion with my satanic “Bot-AI-nic” ;-). The topic was lineage - or provenance, if you prefer.
