@@ -10,7 +10,7 @@ Philosophers have disagreed for centuries:
 
 * It’s a substance that *has* properties. (Aristotle)
 * It’s just a bundle of attributes. (Hume)
-* Or it’s something our mind synthesizes from attributes into an identity. (Kant)
+* It’s something our mind synthesizes from attributes into an identity. (Kant)
 
 When we design software, we implicitly pick one.
 
@@ -27,7 +27,7 @@ Lately, I’ve been exploring a different inversion.
 Instead of starting with **Object -> Property**
 what if we start with **Attribute -> Entity**?
 
-I call this **Attributes-Orientation**.
+I call this **Attribute-Orientation**.
 
 * **First-Class Attributes:** An attribute like `Cost` exists independently, with its own identity and meaning.
 * **Entities as Bearers:** An entity simply holds attribute–value pairs.
