@@ -1,7 +1,51 @@
+# SHORT VERSION:
+
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)
 
+**Modeling big systems can be tough. Even though the root question is simple…**
 
-I’ve been thinking a lot about how we model knowledge.
+**What is a thing?**
+
+Philosophers have disagreed for centuries:
+
+* It’s a substance that *has* properties. (Aristotle)
+* It’s just a bundle of attributes. (Hume)
+* Or it’s something our mind synthesizes from attributes into an identity. (Kant)
+
+When we design software, we implicitly pick one.
+
+Object-oriented systems assume the “thing” comes first, and properties live inside it.
+
+A pure Bundle Theory approach is difficult to realize. Attributes need something to be about — without a bearer, they lack stability.
+
+Most modern languages allow bundles (interfaces), but here’s the tension: 
+If two interfaces define a property called `Cost`, and an object references both, is it one `Cost` or two?
+In most systems, it’s resolved by convention.
+
+Lately, I’ve been exploring a different inversion.
+
+Instead of starting with **Object -> Property**
+what if we start with **Attribute -> Entity**?
+
+I call this **Attributes-Orientation**.
+
+* **First-Class Attributes:** An attribute like `Cost` exists independently, with its own identity and meaning.
+* **Entities as Bearers:** An entity simply holds attribute–value pairs.
+* **Types as Bundles:** A type is just a named bundle of shared attributes.
+
+In that model, `Cost` has one identity. Types merely reference it.
+
+I’m still refining this idea. But the more I work in knowledge modeling, the more I suspect identity is not where we think it is.
+
+#KnowledgeManagement #SoftwareArchitecture #TypeSystems #SystemsThinking
+
+
+---
+# LONG VERSION:
+
+# TypeSystem, Design
+
+## The Philosophical Perspective
 
 ### What Is a Thing?
 
