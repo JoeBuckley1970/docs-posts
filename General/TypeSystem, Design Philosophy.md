@@ -36,7 +36,7 @@ I call this an **Attributes-Orientation** (to contrast with Object-Orientation).
 
 - **First-Class Attributes:** An attribute definition — like `Cost`, `Color`, or `Speed` — is a first-class citizen. It exists independently, with its own identity and meaning, outside of any type or entity.
 
-- **Entities as Bearers:** An entity (the "bearer" of properties) can then have a value for an attribute without needing to belong to a predefined type. An entity is, in a sense, a unique bundle of attribute-value pairs.
+- **Entities as Bearers:** An entity (the "bearer" of attributes) can then have a value for an attribute without needing to belong to a predefined type. An entity is, in a sense, a unique bundle of attribute-value pairs.
 
 - **Types as Bundles:** A type is simply a named bundle of these first-class attribute definitions. `ITransport` is a bundle containing the `Speed` and `Cost` attributes. `ICar` is a bundle containing the `Make`, `Year`, and `Cost` attributes.
 
